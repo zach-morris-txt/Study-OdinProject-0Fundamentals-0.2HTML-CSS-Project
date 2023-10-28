@@ -57,6 +57,7 @@ button{
 .section2{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 24vh;
 }
@@ -83,14 +84,22 @@ button{
 }
 .section3{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 24vh;
     background: #E5E7EB;
 }
+.sec3Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .section3 p{
     width: 44vw;
+    font-size: 300;
+}
+.section3 h4{
+    text-align: end;
 }
 .section4{
     display: flex;
@@ -102,6 +111,7 @@ button{
 .sec4Content{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 44vw;
     height: 10vh;
     background:  #3B82F6;
