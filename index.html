@@ -4,53 +4,62 @@
         <meta charset="UTF-8">
         <title>Review HTML Project</title>
         <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <h1>Header Logo</h1>
             <nav>
-                <a href="">header link one</a>
-                <a href="">header link two</a>
-                <a href="">header link three</a>
+                <a href="./">header link one</a>
+                <a href="./">header link two</a>
+                <a href="./">header link three</a>
             </nav>
         </header>
-        <section className="section1">
-            <h2>This website is awesome</h2>
-            <p>This website has some subtext that goes here under the main title. It's 
-                a smaller font and the color is lower contrast.</p>
-            <button>Sign up</button>
-            <img src="" alt="" />
+        <section class="section1">
+            <div class="sec1Left">
+                <h2>This website is awesome</h2>
+                <p>This website has some subtext that goes here under the main title. It's 
+                    a smaller font and the color is lower contrast.</p>
+                <button>Sign up</button>
+            </div>
+            <img class="sec1Image" src="./images/sec1.jpeg" alt="" />
         </section>
-        <section className="section2">
+        <section class="section2">
             <h3>Some random information.</h3>
-            <div className="sec2Item">
-                <img src="" alt="" />
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div className="sec2Item">
-                <img src="" alt="" />
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div className="sec2Item">
-                <img src="" alt="" />
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div className="sec2Item">
-                <img src="" alt="" />
-                <p>this is some subtext under an illustration or image</p>
+            <div class="sec2Items">
+                <div class="sec2Item">
+                    <img class="sec2Images" src="./images/sec2One.jpeg" alt="" />
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="sec2Item">
+                    <img class="sec2Images" src="./images/sec2Two.jpeg" alt="" />
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="sec2Item">
+                    <img class="sec2Images" src="./images/sec2Three.jpeg" alt="" />
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="sec2Item">
+                    <img class="sec2Images" src="./images/sec2Four.jpeg" alt="" />
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
             </div>
         </section>
-        <section className="section3">
+        <section class="section3">
             <p>This is an inspiring quote, or a testimonial from from a customer.
                  Maybe it's just filling up space, or maybe people will actually
                 read it. Who knows? All I know is that it looks nice.</p>
             <h4>-Thor, God of Thunder</h4>
         </section>
-        <section className="section4">
-            <h5>Call to action! It's time!</h5>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
+        <section class="section4">
+            <div class="sec4Content">
+                <h5>Call to action! It's time!</h5>
+                <p>Sign up for our product by clicking that button right over there!</p>
+                <button>Sign up</button>
+            </div>
         </section>
-        <footer>Copyright @ The Odin Project 2021</footer>
+        <footer>Copyright © The Odin Project 2021</footer>
     </body>
 </html>
